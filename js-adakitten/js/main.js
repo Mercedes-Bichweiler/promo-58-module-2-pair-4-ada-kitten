@@ -1,8 +1,10 @@
 'use strict'
 
 document.querySelector('.js-list');
+document.querySelector('.js-btn-add');
 
 const listElement = document.querySelector('.js-list');
+const buttonMenu = document.querySelector('.js-btn-add');
 
 const kittenOne = `<li class="card">
             <article>
@@ -51,3 +53,5 @@ const kittenThree = `<li class="card">
           </li>`      
 
 listElement.innerHTML = kittenOne + kittenTwo + kittenThree;
+
+buttonMenu.addEventListener('click', )
